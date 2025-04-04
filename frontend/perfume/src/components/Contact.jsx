@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-
+import "@fortawesome/fontawesome-free/css/all.min.css"; // Import FontAwesome styles
 
 const Contact = () => {
   return (
@@ -16,7 +15,7 @@ const Contact = () => {
         Contact Us
       </motion.h2>
 
-      {/* WhatsApp Section */}
+      {/* WhatsApp Section with FontAwesome Icon */}
       <p>
         <strong>WhatsApp:</strong>{" "}
         <a
@@ -26,11 +25,7 @@ const Contact = () => {
           className="d-inline-flex align-items-center"
           style={{ textDecoration: "none", color: "#25D366", fontSize: "18px" }}
         >
-          <img
-            src={whatsappIcon}
-            alt="WhatsApp"
-            style={{ width: "24px", height: "24px", marginRight: "8px" }}
-          />
+          <i className="fab fa-whatsapp" style={{ fontSize: "24px", marginRight: "8px" }}></i>
           Chat with us
         </a>
       </p>
@@ -64,3 +59,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

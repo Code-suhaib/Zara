@@ -17,7 +17,7 @@ const Footer = () => {
           <Col md={3} className="mb-3">
             <h5 className="fw-bold text-secondary">Follow Us</h5>
             <a
-              href="https://instagram.com/"
+              href= "https://www.instagram.com/zara_perfume_mall/?igsh=MXZrZ2pkeHJvNTliNQ%3D%3D&utm_source=qr#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-dark me-3 fs-5"
@@ -25,7 +25,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://youtube.com/"
+              href=" https://www.youtube.com/@Zaraperfumespimpripune"
               target="_blank"
               rel="noopener noreferrer"
               className="text-dark fs-5"
