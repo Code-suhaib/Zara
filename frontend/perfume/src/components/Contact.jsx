@@ -14,7 +14,7 @@ const Contact = () => {
         Contact Us
       </motion.h2>
 
-      <p><strong>WhatsApp:</strong> <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">Chat with us</a></p>
+      <p><strong>WhatsApp:</strong><a href="https://wa.me/8600252724" target="_blank" rel="noopener noreferrer">Chat with us</a></p>
 
       <div className="my-4">
         <h5>Visit Our Stores</h5>
