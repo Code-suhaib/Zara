@@ -1,9 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import backgroundImage from "/hero-bg.jpg";  // Ensure this image exists in public or assets folder
+import { useNavigate } from "react-router-dom";
+import backgroundImage from "/hero-bg.jpg";  // Ensure the image path is correct
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <div
       style={{
@@ -18,15 +21,13 @@ const Home = () => {
     >
       <Container className="text-center">
         <Row className="justify-content-center">
-          {/* Text & Button */}
-          <Col md={8} className="text-light text-center">
-            <h1 className="display-4 fw-bold">Hot Gift</h1>
-            <h2 className="fw-light">A Little Surprise</h2>
+          <Col md={8} className="text-white text-center">
+            <h1 className="display-4 fw-bold text-warning">Fragrance That Defines You</h1>
+            <h2 className="fw-light">Crafted With Passion, Inspired by You</h2>
             <p className="lead">
-              Experience our finest fragrances, crafted with expertise.
-              Get a scent that defines your personality.
+              Discover scents that speak your story — luxury, long-lasting, and made with 20+ years of expertise. Whether it's a signature scent or a custom blend, we’ve got your fragrance journey covered.
             </p>
-            <Button variant="dark" size="lg" href="/discover">
+            <Button variant="dark" size="lg" onClick={() => navigate("/perfume")}>
               Discover
             </Button>
           </Col>
